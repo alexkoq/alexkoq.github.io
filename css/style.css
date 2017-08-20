@@ -20,7 +20,7 @@
   font-weight: medium; }
 body {
   margin: 0 0 0 0;
-  font-family: "GothaProReg", sans-serif; }
+  font-family: "GothaProLig", sans-serif; }
 
 h4, h5, h6, h1, h2, h3, ul, p {
   margin: 0; }
@@ -28,6 +28,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .head-wrap {
   background-image: url(../img/background.png);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center -130px;
   min-height: 930px; }
   .head-wrap h1 {
@@ -35,6 +36,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
     font-family: "GothaProLig", sans-serif;
     font-weight: 300;
     color: #fff; }
+    .head-wrap h1 span {
+      font-family: "GothaProReg", sans-serif;
+      font-weight: normal; }
 
 .logo {
   background-image: url(../img/logo.png);
@@ -88,8 +92,9 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .trade-img-wrap {
   background-image: url(../img/responsive-web-design-1030x579.png);
   background-size: contain;
+  background-repeat: no-repeat;
   height: 579px;
-  width: 1030px; }
+  max-width: 1030px; }
 
 .trading-up {
   position: relative;
@@ -108,7 +113,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
     font-weight: 300;
     line-height: 1.5em; }
   .trading-text span {
-    font-family: "GothaProBol", sans-serif;
+    font-family: "GothaProLig", sans-serif;
     font-weight: bold; }
 
 .os {
@@ -140,10 +145,228 @@ h4, h5, h6, h1, h2, h3, ul, p {
 .advantages-wrap {
   border-top: 1px solid #000;
   padding-top: 100px; }
+  .advantages-wrap ul {
+    padding-left: 20px;
+    padding-top: 20px; }
+    .advantages-wrap ul li p {
+      padding-top: 0px; }
   .advantages-wrap h3 {
     text-align: center;
+    padding-bottom: 60px;
     font-size: 42px;
     font-family: "GothaProLig", sans-serif;
     font-weight: 300; }
+  .advantages-wrap p {
+    text-align: left;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 1.3em; }
+  .advantages-wrap h4 {
+    font-size: 18px;
+    padding-top: 20px; }
+
+.first-row {
+  padding: 0px 20px 45px 20px; }
+
+.cloud {
+  background-image: url(../img/001.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.corner-arrow {
+  background-image: url(../img/002.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.side-arows {
+  background-image: url(../img/003.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.shield {
+  background-image: url(../img/004.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.arrow {
+  background-image: url(../img/005.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.comp {
+  background-image: url(../img/006.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.bell {
+  background-image: url(../img/007.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.rocket {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.otkr-button-wrap {
+  margin-bottom: 100px;
+  margin-top: 70px; }
+  .otkr-button-wrap button {
+    border: 0px solid transparent;
+    border-radius: 3px;
+    background-color: #5591ff;
+    width: 250px;
+    height: 50px;
+    vertical-align: center;
+    -webkit-box-shadow: 0px 2px 15px rgba(50, 50, 50, 0.67);
+            box-shadow: 0px 2px 15px rgba(50, 50, 50, 0.67); }
+    .otkr-button-wrap button a {
+      color: #fff;
+      text-decoration: none;
+      line-height: 1.3em;
+      font-family: "GothaProReg", sans-serif;
+      font-weight: normal;
+      font-size: 16px; }
+
+.expert {
+  background-image: url(../img/herokstelefonom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 526px; }
+
+.visa {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.mastercard {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.maestro {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.yadengi {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.webmoney {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.qiwi {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.swift {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.london {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.dowjones {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.nasdaq {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.diners {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.borse {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.links {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5em; }
+  .links a {
+    text-decoration: none; }
+    .links a:hover {
+      text-decoration: underline; }
+
+.age-18 {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.clean-100 {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.ssl {
+  background-image: url(../img/008.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px; }
+
+.bottom-text-wrap {
+  text-align: center;
+  font-size: 14px;
+  line-height: 2em; }
 
 /*# sourceMappingURL=style.css.map */
