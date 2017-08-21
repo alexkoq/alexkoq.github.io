@@ -25,9 +25,12 @@ $font-reg: 'GothaProReg'
 $font-light: 'GothaProLig'
 $font-bold: 'GothaProBol'
 
+html
+  box-sizing: border-box
 body
   margin: 0 0 0 0
   font-family: $font-light,sans-serif
+  box-sizing: border-box
 
 h4,h5,h6,h1,h2,h3,ul,p
   margin: 0
@@ -107,7 +110,7 @@ h4,h5,h6,h1,h2,h3,ul,p
   background-image: url(../img/responsive-web-design-1030x579.png)
   background-size: contain
   background-repeat: no-repeat
-  height: 579px
+  min-height: 579px
   max-width: 1030px
 
 .trading-up
@@ -223,6 +226,8 @@ h4,h5,h6,h1,h2,h3,ul,p
 .otkr-button-wrap
   margin-bottom: 100px
   margin-top: 70px
+  margin-left: auto
+  margin-right: auto
   button
     border: 0px solid transparent
     border-radius: 3px
@@ -245,61 +250,77 @@ h4,h5,h6,h1,h2,h3,ul,p
   background-size: cover
   min-height: 526px
 
+.payments-wrap
+  padding-top: 100px
+
+.first-line
+  padding-bottom: 35px
+
 .visa
-  @include background(url(../img/008.png))
+  @include background(url(../img/1.png),67px,22px)
 
 .mastercard
-  @include background(url(../img/008.png))
+  @include background(url(../img/2.png),52px,40px)
 
 .maestro
-  @include background(url(../img/008.png))
+  @include background(url(../img/3.png),52px,40px)
 
 .yadengi
-  @include background(url(../img/008.png))
+  @include background(url(../img/4.png),90px,35px)
 
 .webmoney
-  @include background(url(../img/008.png))
+  @include background(url(../img/5.png),123px,31px)
 
 .qiwi
-  @include background(url(../img/008.png))
+  @include background(url(../img/6.png),88px,34px)
 
 .swift
-  @include background(url(../img/008.png))
+  @include background(url(../img/7.png),82px,32px)
 
 .london
-  @include background(url(../img/008.png))
+  @include background(url(../img/8.png),129px,32px)
 
 .dowjones
-  @include background(url(../img/008.png))
+  @include background(url(../img/9.png),86px,13px)
+  align-self: center
 
 .nasdaq
-  @include background(url(../img/008.png))
+  @include background(url(../img/10.png),111px,31px)
 
 .diners
-  @include background(url(../img/008.png))
+  @include background(url(../img/11.png),115px,31px)
 
 .borse
-  @include background(url(../img/008.png))
+  @include background(url(../img/12.png),135px,32px)
+
+.links-wrap
 
 .links
   text-align: center
   font-size: 16px
   line-height: 1.5em
+  &-wrap
+    padding-top: 80px
+    padding-bottom: 60px
   a
     text-decoration: none
     &:hover
       text-decoration: underline
 
 .age-18
-  @include background(url(../img/008.png))
+  @include background(url(../img/18.png),41px,41px)
 
 .clean-100
-  @include background(url(../img/008.png))
+  @include background(url(../img/clean.png),50px,50px)
 
 .ssl
-  @include background(url(../img/008.png))
+  @include background(url(../img/ssl.png),56px,47px)
 
 .bottom-text-wrap
   text-align: center
   font-size: 14px
   line-height: 2em
+  padding-top: 55px
+
+.copyright
+  padding-top: 40px
