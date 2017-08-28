@@ -32,366 +32,39 @@ body {
 h4, h5, h6, h1, h2, h3, ul, p {
   margin: 0; }
 
-.head-wrap {
+.top-wrap {
   background-image: url(../img/background.png);
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center -110px;
-  min-height: 945px; }
-  .head-wrap h1 {
-    font-size: 42px;
-    font-family: "GothaProLig", sans-serif;
-    font-weight: 300;
-    color: #fff; }
-    .head-wrap h1 span {
-      font-family: "GothaProReg", sans-serif;
-      font-weight: normal; }
+  background-size: cover;
+  padding-top: 35px; }
 
 .logo {
   background-image: url(../img/logo.png);
-  background-size: contain;
-  width: 254px;
-  height: 56px;
-  margin: 50px 0 130px 30px; }
-
-.top-advatages-wrap {
-  margin-top: 20px; }
-
-.top-advatages {
-  padding-top: 30px; }
-
-.graph {
-  background-image: url(../img/01.png);
-  background-size: contain;
-  width: 32px;
-  height: 32px;
-  margin-left: 15px; }
-
-.star {
-  background-image: url(../img/02.png);
-  background-size: contain;
   background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
-  margin-left: 15px; }
-
-.prise {
-  background-image: url(../img/03.png);
   background-size: contain;
-  width: 37px;
-  height: 35px;
-  margin-right: -5px;
-  margin-left: 15px; }
+  width: 138px;
+  height: 45px; }
 
-.top-advant {
-  color: #fff; }
-  .top-advant p {
-    margin-left: 25px;
-    font-size: 18px; }
-    .top-advant p span {
-      font-family: "GothaProBol", sans-serif;
-      font-weight: bold; }
-
-.trading-wrap {
-  min-height: 700px;
-  max-height: 700px; }
-
-.trade-img-wrap {
-  background-image: url(../img/adaptive.png);
-  background-size: contain;
+.phone {
+  background-image: url(../img/phone.png);
   background-repeat: no-repeat;
-  min-height: 579px;
-  max-width: 1030px; }
-
-.trading-up {
-  position: relative;
-  top: -200px; }
-
-.trading-text {
-  text-align: center; }
-  .trading-text h2 {
-    padding-bottom: 35px;
-    font-size: 42px;
-    font-family: "GothaProLig", sans-serif;
-    font-weight: 300; }
-  .trading-text p {
-    font-size: 18px;
-    font-family: "GothaProLig", sans-serif;
-    font-weight: 300;
-    line-height: 1.5em; }
-  .trading-text span {
-    font-family: "GothaProLig", sans-serif;
-    font-weight: bold; }
-
-.os {
-  padding-top: 50px;
-  max-width: 500px;
-  margin: 0 auto; }
-
-.windows {
-  background-image: url(../img/windows.png);
   background-size: contain;
-  width: 107px;
-  height: 32px;
-  margin: 0 auto; }
+  width: 28px;
+  height: 28px; }
 
-.android {
-  background-image: url(../img/android.png);
-  background-size: contain;
-  width: 98px;
-  height: 36px;
-  margin: 0 auto; }
+.number {
+  vertical-align: middle; }
+  .number a {
+    vertical-align: middle;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000;
+    font-family: "GothaProReg", sans-serif; }
+    .number a:hover {
+      text-decoration: underline;
+      cursor: pointer; }
 
-.ios {
-  background-image: url(../img/ios.png);
-  background-size: contain;
-  width: 111px;
-  height: 36px;
-  margin: 0 auto; }
+.top-book-wrap {
+  max-width: 742px; }
 
-.advantages-wrap {
-  border-top: 1px solid #000;
-  padding-top: 100px; }
-  .advantages-wrap ul {
-    padding-left: 20px;
-    padding-top: 20px; }
-    .advantages-wrap ul li p {
-      padding-top: 0px; }
-  .advantages-wrap h3 {
-    text-align: center;
-    padding-bottom: 60px;
-    font-size: 42px;
-    font-family: "GothaProLig", sans-serif;
-    font-weight: 300; }
-  .advantages-wrap p {
-    text-align: left;
-    font-size: 14px;
-    padding-top: 20px;
-    line-height: 1.3em; }
-  .advantages-wrap h4 {
-    font-size: 18px;
-    padding-top: 20px; }
-
-.first-row {
-  padding: 0px 20px 45px 20px; }
-
-.second-row {
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.cloud {
-  background-image: url(../img/001.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.corner-arrow {
-  background-image: url(../img/002.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.side-arows {
-  background-image: url(../img/003.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.shield {
-  background-image: url(../img/004.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.arrow {
-  background-image: url(../img/005.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.comp {
-  background-image: url(../img/006.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.bell {
-  background-image: url(../img/007.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.rocket {
-  background-image: url(../img/008.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 43px;
-  height: 43px; }
-
-.otkr-button-wrap {
-  margin-bottom: 100px;
-  margin-top: 70px;
-  -ms-flex-item-align: center;
-      align-self: center; }
-  .otkr-button-wrap button {
-    border: 0px solid transparent;
-    border-radius: 4px;
-    background-color: #5591ff;
-    width: 220px;
-    height: 50px;
-    -ms-flex-item-align: center;
-        align-self: center;
-    -webkit-box-shadow: 0px 3px 3px rgba(55, 98, 176, 0.5);
-            box-shadow: 0px 3px 3px rgba(55, 98, 176, 0.5); }
-    .otkr-button-wrap button a {
-      color: #fff;
-      text-decoration: none;
-      line-height: 1.3em;
-      font-family: "GothaProReg", sans-serif;
-      font-weight: bold;
-      font-size: 16px; }
-
-.expert {
-  background-image: url(../img/herokstelefonom.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 526px; }
-
-.payments-wrap {
-  padding-top: 100px; }
-  .payments-wrap img {
-    display: block;
-    margin: 0 auto; }
-
-.first-line {
-  padding-bottom: 35px; }
-
-.london, .dowjones, .nasdaq {
-  -ms-flex-item-align: center;
-      align-self: center; }
-
-.links {
-  text-align: center;
-  font-size: 16px;
-  font-family: "GothaProReg", sans-serif;
-  font-weight: normal;
-  line-height: 1.5em; }
-  .links-wrap {
-    padding-top: 80px;
-    padding-bottom: 60px; }
-  .links a {
-    text-decoration: none; }
-    .links a:hover {
-      text-decoration: underline; }
-
-.age-18 {
-  background-image: url(../img/18.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 41px;
-  height: 41px;
-  -ms-flex-item-align: center;
-      align-self: center; }
-
-.clean-100 {
-  background-image: url(../img/clean.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px; }
-
-.ssl {
-  background-image: url(../img/ssl.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 56px;
-  height: 47px; }
-
-.bottom-text-wrap {
-  text-align: center;
-  font-size: 14px;
-  line-height: 2em;
-  padding-top: 55px; }
-
-.copyright {
-  padding-top: 40px;
-  padding-bottom: 30px; }
-
-@media (max-width: 1200px) {
-  .diners, .borse {
-    margin-top: 20px; }
-
-  .clean-100 {
-    margin-left: 50px;
-    margin-right: 50px; } }
-@media (max-width: 991px) {
-  .trade-img-wrap {
-    min-height: 350px; }
-
-  .trading-up {
-    position: relative;
-    top: -170px; }
-
-  .trading-wrap {
-    min-height: 500px;
-    max-height: 500px; }
-
-  .webmoney, .qiwi, .swift, .diners, .borse {
-    margin-top: 20px; }
-
-  .diners img {
-    margin-left: auto;
-    margin-right: none; }
-
-  .borse img {
-    margin-right: auto;
-    margin-left: none; }
-
-  .advantages-wrap p {
-    padding-top: 10px;
-    padding-bottom: 20px; }
-  .advantages-wrap ul {
-    padding-bottom: 20px; }
-    .advantages-wrap ul li p {
-      padding-bottom: 0px; }
-
-  .first-row {
-    padding-bottom: 20px; } }
-@media (max-width: 767px) {
-  .trade-img-wrap {
-    min-height: 300px; }
-
-  .trading-up {
-    position: relative;
-    top: -210px; }
-
-  .trading-wrap {
-    min-height: 500px;
-    max-height: 500px; }
-
-  .android, .ios {
-    margin-top: 15px; } }
-@media (max-width: 576px) {
-  .top-advatages-wrap {
-    display: none; }
-
-  .trading-wrap {
-    min-height: 550px;
-    max-height: 550px; }
-
-  .head-wrap h1 {
-    font-size: 32px; }
-
-  .trading-text h2 {
-    font-size: 36px; }
-
-  .advantages-wrap h3 {
-    font-size: 36px; } }
 /*# sourceMappingURL=style.css.map */
