@@ -309,11 +309,17 @@ h4, h5, h6, h1, h2, h3, ul, p {
 
   .top-book {
     margin: 0 auto;
+    margin-top: 20px;
   }
 
   .top-book-text {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 
   .top-safety {
@@ -377,18 +383,13 @@ h4, h5, h6, h1, h2, h3, ul, p {
     padding-top: 30px;
   }
 
-  .logo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 110px;
-  }
-
   .number {
     padding-right: 10px;
   }
 
   .text-wrap {
     margin-top: 80px;
+    margin-bottom: 80px;
   }
 
   .blockchain {
@@ -414,6 +415,12 @@ h4, h5, h6, h1, h2, h3, ul, p {
   }
 }
 @media (max-width: 480px) {
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+  }
+
   .phone-wrap {
     display: none;
   }
