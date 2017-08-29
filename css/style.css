@@ -377,7 +377,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
   }
 
   .logo {
-    margin-left: 10px;
+    margin: 0 auto;
     width: 110px;
   }
 
@@ -413,7 +413,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 }
 @media (max-width: 480px) {
   .phone-wrap {
-    visibility: hidden;
+    display: none;
   }
 }
 @media (max-width: 351px) {
