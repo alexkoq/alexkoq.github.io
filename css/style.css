@@ -110,12 +110,17 @@ h4, h5, h6, h1, h2, h3, ul, p {
   width: 323px;
   height: 75px;
   margin-top: 75px;
-  background-image: url(../img/button.png);
+  background-image: url(../img/button_normal.png);
   background-repeat: no-repeat;
   background-size: 323px 75px;
 }
 .get-book a:hover {
   background-image: url(../img/button_hover.png);
+  background-repeat: no-repeat;
+  background-size: 323px 75px;
+}
+.get-book a:active {
+  background-image: url(../img/button_press.png);
   background-repeat: no-repeat;
   background-size: 323px 75px;
 }
@@ -389,7 +394,7 @@ h4, h5, h6, h1, h2, h3, ul, p {
 
   .text-wrap {
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
 
   .blockchain {
@@ -410,6 +415,14 @@ h4, h5, h6, h1, h2, h3, ul, p {
   }
 
   .get-book a {
+    background-size: contain;
+    width: 280px;
+  }
+  .get-book a:hover {
+    background-size: contain;
+    width: 280px;
+  }
+  .get-book a:active {
     background-size: contain;
     width: 280px;
   }

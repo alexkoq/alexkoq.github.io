@@ -100,11 +100,15 @@ h4,h5,h6,h1,h2,h3,ul,p
     width: 323px
     height: 75px
     margin-top: 75px
-    background-image: url(../img/button.png)
+    background-image: url(../img/button_normal.png)
     background-repeat: no-repeat
     background-size: 323px 75px
     &:hover
       background-image: url(../img/button_hover.png)
+      background-repeat: no-repeat
+      background-size: 323px 75px
+    &:active
+      background-image: url(../img/button_press.png)
       background-repeat: no-repeat
       background-size: 323px 75px
 
@@ -311,7 +315,7 @@ h4,h5,h6,h1,h2,h3,ul,p
 
   .text-wrap
     margin-top: 80px
-    margin-bottom: 80px
+    margin-bottom: 50px
 
   .blockchain
     margin-top: 40px
@@ -331,6 +335,13 @@ h4,h5,h6,h1,h2,h3,ul,p
     a
       background-size: contain
       width: 280px
+      &:hover
+        background-size: contain
+        width: 280px
+      &:active
+        background-size: contain
+        width: 280px
+        
 @media (max-width: 480px)
   .logo
     margin-left: auto
