@@ -365,18 +365,28 @@ h4, h5, h6, h1, h2, h3, ul, p {
   h1 {
     font-size: 34px !important;
     line-height: 1.1em !important;
+    text-align: center;
   }
 
   h2 {
     font-size: 32px !important;
   }
 
+  .top-wrap {
+    min-height: 700px;
+  }
+
   .logo {
     margin-left: 10px;
+    width: 110px;
   }
 
   .number {
     padding-right: 10px;
+  }
+
+  .text-wrap {
+    margin-top: 80px;
   }
 
   .blockchain {
@@ -401,11 +411,12 @@ h4, h5, h6, h1, h2, h3, ul, p {
     width: 280px;
   }
 }
-@media (max-width: 351px) {
+@media (max-width: 480px) {
   .phone-wrap {
     visibility: hidden;
   }
-
+}
+@media (max-width: 351px) {
   .top-book img {
     width: 80%;
     margin-left: 40%;
